@@ -8,7 +8,7 @@ const bottomCards = [
     textColor: "text-charcoal-900",
     title: "Designed for humans",
     description:
-      "Complex problems deserve simple solutions. We craft intuitive interfaces and seamless experiences that feel natural from the first interaction to the last moment.",
+      "Complex problems deserve simple solutions. We craft intuitive interfaces and seamless experiences that feel natural from the first interaction.",
   },
   {
     label: "results driven",

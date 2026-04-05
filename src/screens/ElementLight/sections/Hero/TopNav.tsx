@@ -13,7 +13,7 @@ export const TopNav = (): JSX.Element => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState<boolean>(false);
 
   return (
-    <header className="absolute z-50 flex w-full justify-between px-4 md:px-[80px] lg:px-[175px] py-[25px] bg-white/80 backdrop-blur-sm border-b border-gray-300">
+    <header className="absolute z-50 flex w-full justify-between px-4 md:px-[80px] lg:px-[175px] py-[15px] bg-white">
       <div className="flex items-center flex-1">
         <img src="/sonus logo.svg" alt="" className="w-[152px] h-[40px]" />
       </div>

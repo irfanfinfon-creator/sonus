@@ -71,6 +71,10 @@ export const ServicesGrid = (): JSX.Element => {
         </ScrollWrapper>
       </div>
 
+      {/* Mobile divider */}
+      <div className="flex lg:hidden w-full border-b border-charcoal-700" />
+
+
       <div className={`flex flex-col items-center justify-center gap-5 px-2.5 py-10 lg:py-[104px] ${getBorderClass(1)}`}>
         <ScrollWrapper delay={0.1} className="hover-scale">
           <div className="flex flex-col items-center justify-center gap-5">
@@ -86,6 +90,10 @@ export const ServicesGrid = (): JSX.Element => {
           </div>
         </ScrollWrapper>
       </div>
+
+      {/* Mobile divider */}
+      <div className="flex lg:hidden w-full border-b border-charcoal-700" />
+
 
       <div className={`flex flex-col items-center justify-center gap-5 px-2.5 py-10 lg:py-[104px] ${getBorderClass(2)}`}>
         <ScrollWrapper delay={0.2} className="hover-scale">
@@ -122,6 +130,10 @@ export const ServicesGrid = (): JSX.Element => {
         </ScrollWrapper>
       </div>
 
+      {/* Mobile divider */}
+      <div className="flex lg:hidden w-full border-b border-charcoal-700" />
+
+
       <div className={`flex flex-col items-center justify-center gap-5 px-2.5 py-10 lg:py-[104px] ${getBorderClass(4)}`}>
         <ScrollWrapper delay={0.3} className="hover-scale">
           <div className="flex flex-col items-center justify-center gap-5">
@@ -137,6 +149,10 @@ export const ServicesGrid = (): JSX.Element => {
           </div>
         </ScrollWrapper>
       </div>
+
+      {/* Mobile divider */}
+      <div className="flex lg:hidden w-full border-b border-charcoal-700 " />
+
 
       <div className={`flex flex-col items-center justify-center gap-5 px-2.5 py-10 lg:py-[104px] ${getBorderClass(5)}`}>
         <ScrollWrapper delay={0.4} className="hover-scale">

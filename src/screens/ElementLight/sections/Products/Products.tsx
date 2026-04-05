@@ -9,15 +9,15 @@ const products = [
     title: "Arts platform connecting creators, art lovers, collectors, and founders.",
     description:
       "Elara simplifies social networking, creative exposures, and enhances communication between creators, art lovers, collectors, and founders.",
-    image: "/Elara.svg",
+    image: "/Elarasc.svg",
     layout: "horizontal",
   },
   {
-    id: "hollaven",
+    id: "walkify",
     label: "ease the travel plan",
     title: "An all-in-one vacation solution for your solo travel and family travel.",
     description:
-      "Hollaven addresses both with a unified platform that connects accommodations, restaurants, and businesses in a seamless ecosystem.",
+      "Walkify addresses both with a unified platform that connects accommodations, restaurants, and businesses in a seamless ecosystem.",
     image: "/hollaven.svg",
     layout: "horizontal",
   },
