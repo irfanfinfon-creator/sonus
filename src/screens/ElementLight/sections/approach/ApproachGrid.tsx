@@ -27,12 +27,12 @@ const bottomCards = [
       "To be able to adapt is to be able to strive. We prioritize solutions that are flexible and adaptable to any forms of devices or medias necessary for the clients and users",
   },
   {
-    label: "results driven",
+    label: "optimistic visionary",
     bg: "bg-cream-100",
     textColor: "text-charcoal-900",
-    title: "Flexible Adaptability",
+    title: "Forward Thinking",
     description:
-      "To be able to adapt is to be able to strive. We prioritize solutions that are flexible and adaptable to any forms of devices or medias necessary for the clients and users",
+      "We solve today's problems and anticipate tomorrow's. Our team constantly explores emerging technologies and trends for your business to stay ahead of the curve.",
   }
 ];
 

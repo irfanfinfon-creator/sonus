@@ -1,11 +1,15 @@
+import { useState } from "react";
+
 const navLinks = [
-  { label: "Our Products" },
-  { label: "Our Services" },
-  { label: "Our Process" },
-  { label: "Contact Us" },
+  { label: "Our Products", href: "#products" },
+  { label: "Our Services", href: "#services" },
+  { label: "Our Approach", href: "#approach" },
+  { label: "Contact Us", href: "#contact" },
 ];
 
 export const FooterSection = (): JSX.Element => {
+  const [activeNav, setActiveNav] = useState<string>("Our Products");
+
   return (
     <footer className="flex flex-col items-start self-stretch w-full bg-transparent">
       <div className="flex flex-col w-full bg-charcoal-900 px-4 md:px-[80px] lg:px-[174px] py-0">
@@ -53,14 +57,17 @@ export const FooterSection = (): JSX.Element => {
 
             <nav className="flex flex-col self-stretch w-full items-start gap-2">
               {navLinks.map((link) => (
-                <div
+                <a
                   key={link.label}
-                  className="flex self-stretch w-full items-center"
+                  href={link.href}
+                  onClick={() => setActiveNav(link.label)}
+                  className={`flex self-stretch w-full items-center ${activeNav === link.label ? "opacity-100" : "opacity-80"}`}
+
                 >
                   <span className="font-light text-cream-200 text-sm sm:text-base lg:text-base">
                     {link.label}
                   </span>
-                </div>
+                </a>
               ))}
             </nav>
           </div>

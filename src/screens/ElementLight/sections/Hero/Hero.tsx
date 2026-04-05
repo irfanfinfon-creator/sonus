@@ -5,10 +5,10 @@ export const HeroSection = (): JSX.Element => {
   return (
     <ScrollWrapper className="w-full">
       <section className="w-full mx-auto">
-        <div className="w-full px-4 md:px-[80px] lg:px-[174px] md:py-auto lg:py-auto bg-[url('/orangegradient.svg')] bg-cover bg-center">
+        <div className="w-full h-[100vh] px-4 md:px-[80px] lg:px-[174px] bg-[url('/orangegradient.svg')] bg-cover bg-center flex items-center justify-center">
           <div className="flex flex-col md:flex-row items-center justify-center gap-2.5 w-full">
             {/* Content - All animated as ONE */}
-            <div className="animate-fade-up flex flex-col h-[850px] items-center justify-center gap-[9px] py-[140px] flex-1">
+            <div className="animate-fade-up flex flex-col items-center justify-center gap-[9px] flex-1">
               <div className="flex flex-col items-center justify-center gap-[30px]">
                 <div className="inline-flex max-w-[1390px] bg-gradient-to-r from-amber-50 to-amber-100 flex-col items-center rounded-[100px] backdrop-blur-[10px]">
                   <div className="inline-flex flex-col items-center justify-center">
