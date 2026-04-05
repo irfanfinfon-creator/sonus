@@ -36,10 +36,10 @@ export const FooterSection = (): JSX.Element => {
 
             <div className="flex flex-col max-w-[393px] w-[314.39px] items-start gap-4">
               <p className="font-light text-cream-200 text-sm sm:text-base lg:text-base leading-[22.4px] self-stretch">
-                contact@gorideng.com
+                contact@sonus.com
               </p>
               <p className="font-light text-cream-200 text-sm sm:text-base lg:text-base leading-[22.4px] self-stretch">
-                No. 9 Ibrahim Godi Street, Kawo Busstop, Kano, Nigeria
+                Boulevard Garden, Pantalone Streets, 87930, Elbaf, Norway
               </p>
             </div>
           </div>
